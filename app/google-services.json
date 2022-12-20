@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050135213477",
+    "firebase_url": "https://autotization-default-rtdb.firebaseio.com",
+    "project_id": "autotization",
+    "storage_bucket": "autotization.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050135213477:android:786ed8776225690b36244c",
+        "android_client_info": {
+          "package_name": "com.example.multverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050135213477-3q8948v29napjaip6o3td4a5mj3a41ln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqqeRYnRghgUNyqHK3YVQQd2Qqi7eYcoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050135213477-3q8948v29napjaip6o3td4a5mj3a41ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

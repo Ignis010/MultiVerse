@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultiVerse</string>
+    <string name="login">Вход</string>
+    <string name="later">Перейти</string>
+</resources>
