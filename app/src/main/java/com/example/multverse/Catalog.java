@@ -34,6 +34,14 @@ public class Catalog extends AppCompatActivity {
                 Intent intent;
                 intent = new Intent(Catalog.this, Mult.class);
                 intent.putExtra("image", R.drawable.poster1);
+                intent.putExtra("type", "Мультсериал");
+                intent.putExtra("studio", "Cartoon Network");
+                intent.putExtra("series", "10 сезонов");
+                intent.putExtra("hron", "25 минут");
+                intent.putExtra("zhanr", "Приключение");
+                intent.putExtra
+                ("discription", "Мультсериал повествует нам о невероятных приключениях " +
+                        "Финна парнишки и его приятеля Джейка - собаки с магическими способностями.");
                 startActivity(intent);
             }
         });
@@ -44,6 +52,16 @@ public class Catalog extends AppCompatActivity {
                 Intent intent;
                 intent = new Intent(Catalog.this, Mult.class);
                 intent.putExtra("image", R.drawable.poster2);
+                intent.putExtra("type", "Мультсериал");
+                intent.putExtra("studio", "Cartoon Network");
+                intent.putExtra("series", "6 сезонов");
+                intent.putExtra("hron", "24 минут");
+                intent.putExtra("zhanr", "Сказка");
+                intent.putExtra
+                ("discription", "Мультфильм повествует о Стивене – пухлом пареньке, совсем" +
+                        " недавно попавшем в число группы интергалактических воителей, каждый из которых" +
+                        " символизирует свой камень. Гранат, Аметист и Жемчуг заключёны в их телах и дают " +
+                        "своим хозяевам магические силы.");
                 startActivity(intent);
             }
         });
@@ -54,6 +72,16 @@ public class Catalog extends AppCompatActivity {
                 Intent intent;
                 intent = new Intent(Catalog.this, Mult.class);
                 intent.putExtra("image", R.drawable.poster3);
+                intent.putExtra("type", "Мультсериал");
+                intent.putExtra("studio", "Disney");
+                intent.putExtra("series", "2 сезона");
+                intent.putExtra("hron", "23 минут");
+                intent.putExtra("zhanr", "Мистика");
+                intent.putExtra
+                        ("discription", "История рассказывает о приключениях близнецов," +
+                                "брата и сестры Диппера и Мэйбл Пайнс, чьи летние планы отправляются" +
+                                " в чулан, когда родители оправляют их к дальнему родственнику в" +
+                                " тихий городок Гравити Фолз.");
                 startActivity(intent);
             }
         });
@@ -64,6 +92,16 @@ public class Catalog extends AppCompatActivity {
                 Intent intent;
                 intent = new Intent(Catalog.this, Mult.class);
                 intent.putExtra("image", R.drawable.poster4);
+                intent.putExtra("type", "Мультфильм");
+                intent.putExtra("studio", "White Fox");
+                intent.putExtra("series", "Фильм");
+                intent.putExtra("hron", "120 минут");
+                intent.putExtra("zhanr", "Триллер");
+                intent.putExtra
+                        ("discription", "Акихабара – интереснейшее место, где обитают" +
+                                " самые разные люди – от слегка сдвинутых по фазе до больных на всю " +
+                                "голову. Именно такая компания собралась в Лаборатории проблем" +
+                                " времени, что над лавкой старых телевизоров. ");
                 startActivity(intent);
             }
         });
